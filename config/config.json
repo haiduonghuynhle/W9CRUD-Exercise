@@ -13,17 +13,23 @@
     }
   },
   "test": {
-    "username": "student",
-    "password": "ptudw@123",
-    "database": "crud-exercise",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "username": "ptudwcrud",
+    "password": "3YLhBfpbJyQo46tA5reXOAoO0bjWD2Bp",
+    "database": "ptudwcrud",
+    "host": "dpg-ct87pgt6l47c73d6hc0g-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "production": {
-    "username": "ttbhanh",
-    "password": "5u89vX7AhNbF2hmIFrOitKoTcAA0HV3N",
-    "database": "tuandb",
-    "host": "dpg-clfb5a7jc5ks73e5n3n0-a.oregon-postgres.render.com",
+    "username": "ptudwcrud",
+    "password": "3YLhBfpbJyQo46tA5reXOAoO0bjWD2Bp",
+    "database": "ptudwcrud",
+    "host": "dpg-ct87pgt6l47c73d6hc0g-a.singapore-postgres.render.com",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
